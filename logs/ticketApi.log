@@ -1555,3 +1555,1439 @@ org.jboss.marshalling.TraceInformation: null
 2023-07-20 18:55:27,784 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-07-20 18:55:27,798 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
 2023-07-20 18:55:27,807 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023-07-20 23:26:06,938 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 25572 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-20 23:26:06,951 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-20 23:26:09,463 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'producerFactory' defined in class path resource [com/Api/ticket/config/KafkaConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=kafkaConfiguration; factoryMethodName=producerFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/Api/ticket/config/KafkaConfiguration.class]] for bean 'producerFactory': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=configurationClass; factoryMethodName=producerFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/Api/ticket/config/ConfigurationClass.class]] bound.
+2023-07-20 23:26:09,620 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-20 23:26:09,820 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'producerFactory', defined in class path resource [com/Api/ticket/config/KafkaConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/Api/ticket/config/ConfigurationClass.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-07-20 23:28:57,496 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 13200 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-20 23:28:57,518 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-20 23:28:59,153 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'producerFactory' defined in class path resource [com/Api/ticket/config/KafkaConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=kafkaConfiguration; factoryMethodName=producerFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/Api/ticket/config/KafkaConfiguration.class]] for bean 'producerFactory': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=configurationClass; factoryMethodName=producerFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/Api/ticket/config/ConfigurationClass.class]] bound.
+2023-07-20 23:28:59,169 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-20 23:28:59,209 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'producerFactory', defined in class path resource [com/Api/ticket/config/KafkaConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/Api/ticket/config/ConfigurationClass.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-07-20 23:45:31,479 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 12668 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-20 23:45:31,492 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-20 23:45:33,408 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'producerFactory' defined in class path resource [com/Api/ticket/config/KafkaConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=kafkaConfiguration; factoryMethodName=producerFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/Api/ticket/config/KafkaConfiguration.class]] for bean 'producerFactory': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=configurationClass; factoryMethodName=producerFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/Api/ticket/config/ConfigurationClass.class]] bound.
+2023-07-20 23:45:33,425 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-20 23:45:33,454 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'producerFactory', defined in class path resource [com/Api/ticket/config/KafkaConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/Api/ticket/config/ConfigurationClass.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-07-20 23:46:00,816 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 24616 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-20 23:46:00,831 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-20 23:46:02,998 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-20 23:46:03,000 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-20 23:46:03,018 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2023-07-20 23:46:03,088 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-20 23:46:03,089 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-20 23:46:03,105 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-07-20 23:46:04,873 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-20 23:46:04,879 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-20 23:46:04,881 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-20 23:46:04,882 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-20 23:46:05,313 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-20 23:46:05,313 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4288 ms
+2023-07-20 23:46:05,877 INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-20 23:46:05,947 INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-20 23:46:06,233 INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-20 23:46:06,449 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2023-07-20 23:46:07,465 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2023-07-20 23:46:07,478 INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-20 23:46:08,893 INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-20 23:46:08,911 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-20 23:46:09,107 INFO [org.redisson.Version] Redisson 3.13.3
+2023-07-20 23:46:09,665 INFO [org.redisson.connection.pool.MasterPubSubConnectionPool] 1 connections initialized for localhost/127.0.0.1:6379
+2023-07-20 23:46:09,672 INFO [org.redisson.connection.pool.MasterConnectionPool] 24 connections initialized for localhost/127.0.0.1:6379
+2023-07-20 23:46:10,001 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] Autowired annotation is not supported on static fields: public static final org.slf4j.Logger com.Api.ticket.listener.Consumer.logger
+2023-07-20 23:46:10,201 WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-20 23:46:12,382 INFO [org.apache.kafka.clients.consumer.ConsumerConfig] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-groupId-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = groupId
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2023-07-20 23:46:12,773 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka version: 3.1.2
+2023-07-20 23:46:12,774 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka commitId: f8c67dc3ae0a3265
+2023-07-20 23:46:12,774 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka startTimeMs: 1689876972772
+2023-07-20 23:46:12,777 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Subscribed to topic(s): TICKET_TOPIC
+2023-07-20 23:46:12,791 INFO [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+2023-07-20 23:46:12,822 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+2023-07-20 23:46:12,899 INFO [com.Api.ticket.TicketApplication] Started TicketApplication in 13.231 seconds (JVM running for 15.269)
+2023-07-20 23:46:13,113 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-20 23:46:13,113 INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2023-07-20 23:46:13,114 INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
+2023-07-20 23:46:14,385 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting the last seen epoch of partition TICKET_TOPIC-0 to 0 since the associated topicId changed from null to xQAYx2EETGaZf3z-B-IYqg
+2023-07-20 23:46:14,388 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Cluster ID: ghGaNENzRc-pAOjADoO-pw
+2023-07-20 23:46:14,398 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Discovered group coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null)
+2023-07-20 23:46:14,402 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-20 23:46:14,466 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: need to re-join with the given member-id
+2023-07-20 23:46:14,467 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-20 23:46:14,476 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully joined group with generation Generation{generationId=15, memberId='consumer-groupId-1-f0634562-327e-442f-b827-c8adf523a21a', protocol='range'}
+2023-07-20 23:46:14,480 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Finished assignment for group at generation 15: {consumer-groupId-1-f0634562-327e-442f-b827-c8adf523a21a=Assignment(partitions=[TICKET_TOPIC-0])}
+2023-07-20 23:46:14,496 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully synced group in generation Generation{generationId=15, memberId='consumer-groupId-1-f0634562-327e-442f-b827-c8adf523a21a', protocol='range'}
+2023-07-20 23:46:14,497 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Notifying assignor about the new Assignment(partitions=[TICKET_TOPIC-0])
+2023-07-20 23:46:14,502 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Adding newly assigned partitions: TICKET_TOPIC-0
+2023-07-20 23:46:14,527 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Setting offset for partition TICKET_TOPIC-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[LAPTOP-LCH17QBJ:9092 (id: 1 rack: null)], epoch=0}}
+2023-07-20 23:46:14,528 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions assigned: [TICKET_TOPIC-0]
+2023-07-20 23:46:40,045 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Revoke previously assigned partitions TICKET_TOPIC-0
+2023-07-20 23:46:40,047 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions revoked: [TICKET_TOPIC-0]
+2023-07-20 23:46:40,047 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Member consumer-groupId-1-f0634562-327e-442f-b827-c8adf523a21a sending LeaveGroup request to coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2023-07-20 23:46:40,047 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-20 23:46:40,047 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-20 23:46:40,047 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Unsubscribed all topics or patterns and assigned partitions
+2023-07-20 23:46:40,048 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-20 23:46:40,048 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-20 23:46:40,055 INFO [org.apache.kafka.common.metrics.Metrics] Metrics scheduler closed
+2023-07-20 23:46:40,056 INFO [org.apache.kafka.common.metrics.Metrics] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-07-20 23:46:40,056 INFO [org.apache.kafka.common.metrics.Metrics] Metrics reporters closed
+2023-07-20 23:46:40,059 INFO [org.apache.kafka.common.utils.AppInfoParser] App info kafka.consumer for consumer-groupId-1 unregistered
+2023-07-20 23:46:40,062 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: Consumer stopped
+2023-07-20 23:46:40,120 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-20 23:46:40,131 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023-07-20 23:46:40,145 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023-07-21 10:24:22,510 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 21776 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-21 10:24:22,521 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 10:24:23,887 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 10:24:23,888 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 10:24:23,907 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-07-21 10:24:23,931 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 10:24:23,932 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-21 10:24:23,947 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-07-21 10:24:25,343 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-21 10:24:25,351 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-21 10:24:25,356 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-21 10:24:25,357 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-21 10:24:25,754 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-21 10:24:25,754 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3166 ms
+2023-07-21 10:24:26,016 INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 10:24:26,089 INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-21 10:24:26,309 INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 10:24:26,443 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2023-07-21 10:24:27,115 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2023-07-21 10:24:27,127 INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-21 10:24:28,222 INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 10:24:28,232 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 10:24:28,377 INFO [org.redisson.Version] Redisson 3.13.3
+2023-07-21 10:24:30,905 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ticketCache': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/Api/ticket/config/RedisConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+2023-07-21 10:24:30,906 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 10:24:30,910 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023-07-21 10:24:30,925 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023-07-21 10:24:30,928 INFO [org.apache.catalina.core.StandardService] Stopping service [Tomcat]
+2023-07-21 10:24:30,950 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-21 10:24:30,983 ERROR [org.springframework.boot.SpringApplication] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ticketCache': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/Api/ticket/config/RedisConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.Api.ticket.TicketApplication.main(TicketApplication.java:18)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/Api/ticket/config/RedisConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 33 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:159)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:329)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$1(ConnectionPool.java:295)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.client.RedisClient$2$2.run(RedisClient.java:248)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:973)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-07-21 11:00:56,547 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 21496 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-21 11:00:56,552 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 11:00:57,425 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:00:57,426 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 11:00:57,452 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-07-21 11:00:57,472 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:00:57,473 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-21 11:00:57,487 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-07-21 11:00:58,776 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-21 11:00:58,784 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:00:58,791 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-21 11:00:58,793 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-21 11:00:59,264 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-21 11:00:59,264 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2666 ms
+2023-07-21 11:00:59,646 INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 11:00:59,706 INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-21 11:00:59,891 INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 11:01:00,014 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2023-07-21 11:01:00,572 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2023-07-21 11:01:00,593 INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-21 11:01:01,519 INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 11:01:01,526 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:01:01,741 INFO [org.redisson.Version] Redisson 3.13.3
+2023-07-21 11:01:02,246 INFO [org.redisson.connection.pool.MasterPubSubConnectionPool] 1 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:01:02,252 INFO [org.redisson.connection.pool.MasterConnectionPool] 24 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:01:02,543 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] Autowired annotation is not supported on static fields: public static final org.slf4j.Logger com.Api.ticket.listener.Consumer.logger
+2023-07-21 11:01:02,735 WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 11:01:03,846 INFO [org.apache.kafka.clients.consumer.ConsumerConfig] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-groupId-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = groupId
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2023-07-21 11:01:04,100 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka version: 3.1.2
+2023-07-21 11:01:04,100 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka commitId: f8c67dc3ae0a3265
+2023-07-21 11:01:04,100 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka startTimeMs: 1689917464098
+2023-07-21 11:01:04,104 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Subscribed to topic(s): TICKET_TOPIC
+2023-07-21 11:01:04,115 INFO [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:01:04,170 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+2023-07-21 11:01:04,254 INFO [com.Api.ticket.TicketApplication] Started TicketApplication in 8.222 seconds (JVM running for 9.375)
+2023-07-21 11:01:04,814 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting the last seen epoch of partition TICKET_TOPIC-0 to 0 since the associated topicId changed from null to xQAYx2EETGaZf3z-B-IYqg
+2023-07-21 11:01:04,820 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Cluster ID: ghGaNENzRc-pAOjADoO-pw
+2023-07-21 11:01:04,821 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Discovered group coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null)
+2023-07-21 11:01:04,825 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:01:04,849 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: need to re-join with the given member-id
+2023-07-21 11:01:04,849 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:01:04,864 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully joined group with generation Generation{generationId=17, memberId='consumer-groupId-1-86d7ec44-ddca-4b8f-bab4-9c8469eacb3b', protocol='range'}
+2023-07-21 11:01:04,866 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Finished assignment for group at generation 17: {consumer-groupId-1-86d7ec44-ddca-4b8f-bab4-9c8469eacb3b=Assignment(partitions=[TICKET_TOPIC-0])}
+2023-07-21 11:01:04,911 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully synced group in generation Generation{generationId=17, memberId='consumer-groupId-1-86d7ec44-ddca-4b8f-bab4-9c8469eacb3b', protocol='range'}
+2023-07-21 11:01:04,913 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Notifying assignor about the new Assignment(partitions=[TICKET_TOPIC-0])
+2023-07-21 11:01:04,916 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Adding newly assigned partitions: TICKET_TOPIC-0
+2023-07-21 11:01:04,937 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Setting offset for partition TICKET_TOPIC-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[LAPTOP-LCH17QBJ:9092 (id: 1 rack: null)], epoch=0}}
+2023-07-21 11:01:04,938 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions assigned: [TICKET_TOPIC-0]
+2023-07-21 11:01:33,772 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21 11:01:33,772 INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2023-07-21 11:01:33,773 INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
+2023-07-21 11:10:04,961 INFO [org.apache.kafka.clients.NetworkClient] [Consumer clientId=consumer-groupId-1, groupId=groupId] Node -1 disconnected.
+2023-07-21 11:43:42,329 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Revoke previously assigned partitions TICKET_TOPIC-0
+2023-07-21 11:43:42,330 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions revoked: [TICKET_TOPIC-0]
+2023-07-21 11:43:42,330 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Member consumer-groupId-1-86d7ec44-ddca-4b8f-bab4-9c8469eacb3b sending LeaveGroup request to coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2023-07-21 11:43:42,331 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:43:42,331 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:43:42,331 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Unsubscribed all topics or patterns and assigned partitions
+2023-07-21 11:43:42,332 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:43:42,332 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:43:42,348 INFO [org.apache.kafka.common.metrics.Metrics] Metrics scheduler closed
+2023-07-21 11:43:42,348 INFO [org.apache.kafka.common.metrics.Metrics] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-07-21 11:43:42,349 INFO [org.apache.kafka.common.metrics.Metrics] Metrics reporters closed
+2023-07-21 11:43:42,355 INFO [org.apache.kafka.common.utils.AppInfoParser] App info kafka.consumer for consumer-groupId-1 unregistered
+2023-07-21 11:43:42,355 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: Consumer stopped
+2023-07-21 11:43:42,406 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:43:42,415 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023-07-21 11:43:42,423 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023-07-21 11:43:48,343 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 18732 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-21 11:43:48,347 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 11:43:49,222 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:43:49,225 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 11:43:49,252 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-07-21 11:43:49,285 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:43:49,285 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-21 11:43:49,294 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-07-21 11:43:50,206 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-21 11:43:50,211 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:43:50,212 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-21 11:43:50,213 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-21 11:43:50,548 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-21 11:43:50,548 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2137 ms
+2023-07-21 11:43:50,803 INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 11:43:50,874 INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-21 11:43:51,090 INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 11:43:51,207 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2023-07-21 11:43:51,616 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2023-07-21 11:43:51,630 INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-21 11:43:52,585 INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 11:43:52,598 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:43:52,783 INFO [org.redisson.Version] Redisson 3.13.3
+2023-07-21 11:43:53,171 INFO [org.redisson.connection.pool.MasterPubSubConnectionPool] 1 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:43:53,179 INFO [org.redisson.connection.pool.MasterConnectionPool] 24 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:43:53,362 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] Autowired annotation is not supported on static fields: public static final org.slf4j.Logger com.Api.ticket.listener.Consumer.logger
+2023-07-21 11:43:53,496 WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 11:43:54,635 INFO [org.apache.kafka.clients.consumer.ConsumerConfig] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-groupId-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = groupId
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2023-07-21 11:43:54,851 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka version: 3.1.2
+2023-07-21 11:43:54,851 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka commitId: f8c67dc3ae0a3265
+2023-07-21 11:43:54,851 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka startTimeMs: 1689920034849
+2023-07-21 11:43:54,854 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Subscribed to topic(s): TICKET_TOPIC
+2023-07-21 11:43:54,861 INFO [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:43:54,890 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+2023-07-21 11:43:54,983 INFO [com.Api.ticket.TicketApplication] Started TicketApplication in 7.348 seconds (JVM running for 8.352)
+2023-07-21 11:43:55,478 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting the last seen epoch of partition TICKET_TOPIC-0 to 0 since the associated topicId changed from null to xQAYx2EETGaZf3z-B-IYqg
+2023-07-21 11:43:55,481 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Cluster ID: ghGaNENzRc-pAOjADoO-pw
+2023-07-21 11:43:55,482 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Discovered group coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null)
+2023-07-21 11:43:55,484 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:43:55,519 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: need to re-join with the given member-id
+2023-07-21 11:43:55,520 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:43:55,523 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully joined group with generation Generation{generationId=19, memberId='consumer-groupId-1-04fd13b3-69a5-426e-b6c0-c1fbb6167310', protocol='range'}
+2023-07-21 11:43:55,524 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Finished assignment for group at generation 19: {consumer-groupId-1-04fd13b3-69a5-426e-b6c0-c1fbb6167310=Assignment(partitions=[TICKET_TOPIC-0])}
+2023-07-21 11:43:55,531 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully synced group in generation Generation{generationId=19, memberId='consumer-groupId-1-04fd13b3-69a5-426e-b6c0-c1fbb6167310', protocol='range'}
+2023-07-21 11:43:55,532 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Notifying assignor about the new Assignment(partitions=[TICKET_TOPIC-0])
+2023-07-21 11:43:55,534 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Adding newly assigned partitions: TICKET_TOPIC-0
+2023-07-21 11:43:55,545 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Setting offset for partition TICKET_TOPIC-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[LAPTOP-LCH17QBJ:9092 (id: 1 rack: null)], epoch=0}}
+2023-07-21 11:43:55,547 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions assigned: [TICKET_TOPIC-0]
+2023-07-21 11:43:57,610 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21 11:43:57,610 INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2023-07-21 11:43:57,612 INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms
+2023-07-21 11:44:35,640 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Revoke previously assigned partitions TICKET_TOPIC-0
+2023-07-21 11:44:35,642 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions revoked: [TICKET_TOPIC-0]
+2023-07-21 11:44:35,643 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Member consumer-groupId-1-04fd13b3-69a5-426e-b6c0-c1fbb6167310 sending LeaveGroup request to coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2023-07-21 11:44:35,644 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:44:35,645 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:44:35,645 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Unsubscribed all topics or patterns and assigned partitions
+2023-07-21 11:44:35,645 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:44:35,645 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:44:35,650 INFO [org.apache.kafka.common.metrics.Metrics] Metrics scheduler closed
+2023-07-21 11:44:35,650 INFO [org.apache.kafka.common.metrics.Metrics] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-07-21 11:44:35,650 INFO [org.apache.kafka.common.metrics.Metrics] Metrics reporters closed
+2023-07-21 11:44:35,657 INFO [org.apache.kafka.common.utils.AppInfoParser] App info kafka.consumer for consumer-groupId-1 unregistered
+2023-07-21 11:44:35,658 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: Consumer stopped
+2023-07-21 11:44:35,708 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:44:35,715 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023-07-21 11:44:35,727 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023-07-21 11:44:41,773 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 13728 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-21 11:44:41,786 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 11:44:43,199 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:44:43,201 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 11:44:43,220 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2023-07-21 11:44:43,287 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:44:43,295 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-21 11:44:43,314 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-07-21 11:44:44,491 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-21 11:44:44,496 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:44:44,499 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-21 11:44:44,500 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-21 11:44:44,877 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-21 11:44:44,877 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3028 ms
+2023-07-21 11:44:45,088 INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 11:44:45,152 INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-21 11:44:45,524 INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 11:44:45,660 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2023-07-21 11:44:46,142 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2023-07-21 11:44:46,152 INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-21 11:44:47,091 INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 11:44:47,098 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:44:47,234 INFO [org.redisson.Version] Redisson 3.13.3
+2023-07-21 11:44:47,675 INFO [org.redisson.connection.pool.MasterPubSubConnectionPool] 1 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:44:47,683 INFO [org.redisson.connection.pool.MasterConnectionPool] 24 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:44:47,887 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] Autowired annotation is not supported on static fields: public static final org.slf4j.Logger com.Api.ticket.listener.Consumer.logger
+2023-07-21 11:44:48,042 WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 11:44:49,590 INFO [org.apache.kafka.clients.consumer.ConsumerConfig] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-groupId-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = groupId
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2023-07-21 11:44:49,786 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka version: 3.1.2
+2023-07-21 11:44:49,786 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka commitId: f8c67dc3ae0a3265
+2023-07-21 11:44:49,786 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka startTimeMs: 1689920089785
+2023-07-21 11:44:49,790 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Subscribed to topic(s): TICKET_TOPIC
+2023-07-21 11:44:49,797 INFO [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:44:49,837 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+2023-07-21 11:44:49,916 INFO [com.Api.ticket.TicketApplication] Started TicketApplication in 8.782 seconds (JVM running for 10.058)
+2023-07-21 11:44:50,400 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting the last seen epoch of partition TICKET_TOPIC-0 to 0 since the associated topicId changed from null to xQAYx2EETGaZf3z-B-IYqg
+2023-07-21 11:44:50,402 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Cluster ID: ghGaNENzRc-pAOjADoO-pw
+2023-07-21 11:44:50,403 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Discovered group coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null)
+2023-07-21 11:44:50,405 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:44:50,451 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: need to re-join with the given member-id
+2023-07-21 11:44:50,451 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:44:50,455 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully joined group with generation Generation{generationId=21, memberId='consumer-groupId-1-ac687328-4b42-4252-b450-3bcfe10afa67', protocol='range'}
+2023-07-21 11:44:50,457 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Finished assignment for group at generation 21: {consumer-groupId-1-ac687328-4b42-4252-b450-3bcfe10afa67=Assignment(partitions=[TICKET_TOPIC-0])}
+2023-07-21 11:44:50,468 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully synced group in generation Generation{generationId=21, memberId='consumer-groupId-1-ac687328-4b42-4252-b450-3bcfe10afa67', protocol='range'}
+2023-07-21 11:44:50,469 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Notifying assignor about the new Assignment(partitions=[TICKET_TOPIC-0])
+2023-07-21 11:44:50,472 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Adding newly assigned partitions: TICKET_TOPIC-0
+2023-07-21 11:44:50,482 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Setting offset for partition TICKET_TOPIC-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[LAPTOP-LCH17QBJ:9092 (id: 1 rack: null)], epoch=0}}
+2023-07-21 11:44:50,483 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions assigned: [TICKET_TOPIC-0]
+2023-07-21 11:44:51,016 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21 11:44:51,017 INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2023-07-21 11:44:51,019 INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms
+2023-07-21 11:45:46,664 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Revoke previously assigned partitions TICKET_TOPIC-0
+2023-07-21 11:45:46,664 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions revoked: [TICKET_TOPIC-0]
+2023-07-21 11:45:46,665 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Member consumer-groupId-1-ac687328-4b42-4252-b450-3bcfe10afa67 sending LeaveGroup request to coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2023-07-21 11:45:46,666 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:45:46,666 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:45:46,666 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Unsubscribed all topics or patterns and assigned partitions
+2023-07-21 11:45:46,667 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:45:46,667 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:45:46,672 INFO [org.apache.kafka.common.metrics.Metrics] Metrics scheduler closed
+2023-07-21 11:45:46,672 INFO [org.apache.kafka.common.metrics.Metrics] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-07-21 11:45:46,673 INFO [org.apache.kafka.common.metrics.Metrics] Metrics reporters closed
+2023-07-21 11:45:46,679 INFO [org.apache.kafka.common.utils.AppInfoParser] App info kafka.consumer for consumer-groupId-1 unregistered
+2023-07-21 11:45:46,681 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: Consumer stopped
+2023-07-21 11:45:46,717 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:45:46,724 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023-07-21 11:45:46,734 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023-07-21 11:45:53,714 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 11924 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-21 11:45:53,721 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 11:45:55,711 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:45:55,712 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 11:45:55,726 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-07-21 11:45:55,767 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:45:55,768 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-21 11:45:55,784 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-07-21 11:45:57,473 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-21 11:45:57,479 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:45:57,481 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-21 11:45:57,481 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-21 11:45:57,886 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-21 11:45:57,887 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4109 ms
+2023-07-21 11:45:58,391 INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 11:45:58,473 INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-21 11:45:58,753 INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 11:45:58,941 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2023-07-21 11:45:59,586 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2023-07-21 11:45:59,600 INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-21 11:46:00,387 INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 11:46:00,394 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:46:00,521 INFO [org.redisson.Version] Redisson 3.13.3
+2023-07-21 11:46:00,888 INFO [org.redisson.connection.pool.MasterPubSubConnectionPool] 1 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:46:00,897 INFO [org.redisson.connection.pool.MasterConnectionPool] 24 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:46:01,164 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] Autowired annotation is not supported on static fields: public static final org.slf4j.Logger com.Api.ticket.listener.Consumer.logger
+2023-07-21 11:46:01,335 WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 11:46:02,432 INFO [org.apache.kafka.clients.consumer.ConsumerConfig] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-groupId-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = groupId
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2023-07-21 11:46:02,789 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka version: 3.1.2
+2023-07-21 11:46:02,789 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka commitId: f8c67dc3ae0a3265
+2023-07-21 11:46:02,789 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka startTimeMs: 1689920162787
+2023-07-21 11:46:02,791 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Subscribed to topic(s): TICKET_TOPIC
+2023-07-21 11:46:02,798 INFO [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:46:02,845 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+2023-07-21 11:46:02,879 INFO [com.Api.ticket.TicketApplication] Started TicketApplication in 9.846 seconds (JVM running for 10.997)
+2023-07-21 11:46:03,270 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting the last seen epoch of partition TICKET_TOPIC-0 to 0 since the associated topicId changed from null to xQAYx2EETGaZf3z-B-IYqg
+2023-07-21 11:46:03,272 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Cluster ID: ghGaNENzRc-pAOjADoO-pw
+2023-07-21 11:46:03,272 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Discovered group coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null)
+2023-07-21 11:46:03,275 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:46:03,316 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: need to re-join with the given member-id
+2023-07-21 11:46:03,316 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:46:03,319 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully joined group with generation Generation{generationId=23, memberId='consumer-groupId-1-c0c34451-654e-431c-b54d-02df7b37c9ee', protocol='range'}
+2023-07-21 11:46:03,320 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Finished assignment for group at generation 23: {consumer-groupId-1-c0c34451-654e-431c-b54d-02df7b37c9ee=Assignment(partitions=[TICKET_TOPIC-0])}
+2023-07-21 11:46:03,327 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully synced group in generation Generation{generationId=23, memberId='consumer-groupId-1-c0c34451-654e-431c-b54d-02df7b37c9ee', protocol='range'}
+2023-07-21 11:46:03,328 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Notifying assignor about the new Assignment(partitions=[TICKET_TOPIC-0])
+2023-07-21 11:46:03,330 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Adding newly assigned partitions: TICKET_TOPIC-0
+2023-07-21 11:46:03,340 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Setting offset for partition TICKET_TOPIC-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[LAPTOP-LCH17QBJ:9092 (id: 1 rack: null)], epoch=0}}
+2023-07-21 11:46:03,341 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions assigned: [TICKET_TOPIC-0]
+2023-07-21 11:46:05,221 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21 11:46:05,221 INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2023-07-21 11:46:05,222 INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
+2023-07-21 11:47:22,711 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Revoke previously assigned partitions TICKET_TOPIC-0
+2023-07-21 11:47:22,712 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions revoked: [TICKET_TOPIC-0]
+2023-07-21 11:47:22,712 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Member consumer-groupId-1-c0c34451-654e-431c-b54d-02df7b37c9ee sending LeaveGroup request to coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2023-07-21 11:47:22,713 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:47:22,713 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:47:22,713 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Unsubscribed all topics or patterns and assigned partitions
+2023-07-21 11:47:22,713 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:47:22,713 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:47:22,717 INFO [org.apache.kafka.common.metrics.Metrics] Metrics scheduler closed
+2023-07-21 11:47:22,717 INFO [org.apache.kafka.common.metrics.Metrics] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-07-21 11:47:22,717 INFO [org.apache.kafka.common.metrics.Metrics] Metrics reporters closed
+2023-07-21 11:47:22,721 INFO [org.apache.kafka.common.utils.AppInfoParser] App info kafka.consumer for consumer-groupId-1 unregistered
+2023-07-21 11:47:22,723 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: Consumer stopped
+2023-07-21 11:47:22,764 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:47:22,775 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023-07-21 11:47:22,783 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023-07-21 11:47:29,580 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 28216 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-21 11:47:29,599 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 11:47:31,046 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:47:31,047 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 11:47:31,063 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-07-21 11:47:31,092 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:47:31,094 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-21 11:47:31,107 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-07-21 11:47:32,431 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-21 11:47:32,439 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:47:32,444 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-21 11:47:32,444 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-21 11:47:32,783 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-21 11:47:32,783 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3109 ms
+2023-07-21 11:47:33,292 INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 11:47:33,356 INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-21 11:47:33,649 INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 11:47:33,825 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2023-07-21 11:47:34,655 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2023-07-21 11:47:34,675 INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-21 11:47:35,626 INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 11:47:35,638 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:47:35,818 INFO [org.redisson.Version] Redisson 3.13.3
+2023-07-21 11:47:36,297 INFO [org.redisson.connection.pool.MasterPubSubConnectionPool] 1 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:47:36,311 INFO [org.redisson.connection.pool.MasterConnectionPool] 24 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 11:47:36,536 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] Autowired annotation is not supported on static fields: public static final org.slf4j.Logger com.Api.ticket.listener.Consumer.logger
+2023-07-21 11:47:36,675 WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 11:47:37,724 INFO [org.apache.kafka.clients.consumer.ConsumerConfig] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-groupId-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = groupId
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2023-07-21 11:47:37,996 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka version: 3.1.2
+2023-07-21 11:47:37,996 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka commitId: f8c67dc3ae0a3265
+2023-07-21 11:47:37,996 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka startTimeMs: 1689920257995
+2023-07-21 11:47:37,998 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Subscribed to topic(s): TICKET_TOPIC
+2023-07-21 11:47:38,005 INFO [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:47:38,048 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+2023-07-21 11:47:38,080 INFO [com.Api.ticket.TicketApplication] Started TicketApplication in 9.226 seconds (JVM running for 10.382)
+2023-07-21 11:47:38,202 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21 11:47:38,202 INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2023-07-21 11:47:38,203 INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
+2023-07-21 11:47:38,623 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting the last seen epoch of partition TICKET_TOPIC-0 to 0 since the associated topicId changed from null to xQAYx2EETGaZf3z-B-IYqg
+2023-07-21 11:47:38,625 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Cluster ID: ghGaNENzRc-pAOjADoO-pw
+2023-07-21 11:47:38,629 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Discovered group coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null)
+2023-07-21 11:47:38,633 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:47:38,646 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: need to re-join with the given member-id
+2023-07-21 11:47:38,646 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 11:47:38,648 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully joined group with generation Generation{generationId=25, memberId='consumer-groupId-1-9f241b9e-367c-4c8b-b602-82ef2d6eb644', protocol='range'}
+2023-07-21 11:47:38,650 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Finished assignment for group at generation 25: {consumer-groupId-1-9f241b9e-367c-4c8b-b602-82ef2d6eb644=Assignment(partitions=[TICKET_TOPIC-0])}
+2023-07-21 11:47:38,656 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully synced group in generation Generation{generationId=25, memberId='consumer-groupId-1-9f241b9e-367c-4c8b-b602-82ef2d6eb644', protocol='range'}
+2023-07-21 11:47:38,656 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Notifying assignor about the new Assignment(partitions=[TICKET_TOPIC-0])
+2023-07-21 11:47:38,661 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Adding newly assigned partitions: TICKET_TOPIC-0
+2023-07-21 11:47:38,674 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Setting offset for partition TICKET_TOPIC-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[LAPTOP-LCH17QBJ:9092 (id: 1 rack: null)], epoch=0}}
+2023-07-21 11:47:38,675 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions assigned: [TICKET_TOPIC-0]
+2023-07-21 11:54:52,372 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Revoke previously assigned partitions TICKET_TOPIC-0
+2023-07-21 11:54:52,373 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions revoked: [TICKET_TOPIC-0]
+2023-07-21 11:54:52,373 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Member consumer-groupId-1-9f241b9e-367c-4c8b-b602-82ef2d6eb644 sending LeaveGroup request to coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2023-07-21 11:54:52,374 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:54:52,374 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:54:52,374 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Unsubscribed all topics or patterns and assigned partitions
+2023-07-21 11:54:52,374 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting generation due to: consumer pro-actively leaving the group
+2023-07-21 11:54:52,374 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: consumer pro-actively leaving the group
+2023-07-21 11:54:52,379 INFO [org.apache.kafka.common.metrics.Metrics] Metrics scheduler closed
+2023-07-21 11:54:52,379 INFO [org.apache.kafka.common.metrics.Metrics] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-07-21 11:54:52,379 INFO [org.apache.kafka.common.metrics.Metrics] Metrics reporters closed
+2023-07-21 11:54:52,385 INFO [org.apache.kafka.common.utils.AppInfoParser] App info kafka.consumer for consumer-groupId-1 unregistered
+2023-07-21 11:54:52,386 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: Consumer stopped
+2023-07-21 11:54:52,433 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:54:52,445 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023-07-21 11:54:52,465 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023-07-21 11:56:33,976 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 6004 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-21 11:56:33,982 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 11:56:34,855 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:56:34,857 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 11:56:34,874 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-07-21 11:56:34,906 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:56:34,909 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-21 11:56:34,918 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-07-21 11:56:35,994 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-21 11:56:36,004 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:56:36,009 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-21 11:56:36,009 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-21 11:56:36,399 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-21 11:56:36,400 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2338 ms
+2023-07-21 11:56:36,492 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ticketCache': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationClass': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kafka.bootstrap.servers' in value "${kafka.bootstrap.servers}"
+2023-07-21 11:56:36,494 INFO [org.apache.catalina.core.StandardService] Stopping service [Tomcat]
+2023-07-21 11:56:36,514 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-21 11:56:36,552 ERROR [org.springframework.boot.SpringApplication] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ticketCache': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationClass': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kafka.bootstrap.servers' in value "${kafka.bootstrap.servers}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.Api.ticket.TicketApplication.main(TicketApplication.java:18)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationClass': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kafka.bootstrap.servers' in value "${kafka.bootstrap.servers}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'kafka.bootstrap.servers' in value "${kafka.bootstrap.servers}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 40 common frames omitted
+2023-07-21 11:57:31,678 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 4324 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-21 11:57:31,685 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 11:57:33,069 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:57:33,070 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 11:57:33,089 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2023-07-21 11:57:33,109 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 11:57:33,110 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-21 11:57:33,134 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-07-21 11:57:34,371 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-21 11:57:34,376 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-21 11:57:34,379 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-21 11:57:34,380 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-21 11:57:34,740 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-21 11:57:34,740 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3001 ms
+2023-07-21 11:57:34,810 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ticketCache': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationClass': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kafka.bootstrap.servers' in value "${kafka.bootstrap.servers}"
+2023-07-21 11:57:34,812 INFO [org.apache.catalina.core.StandardService] Stopping service [Tomcat]
+2023-07-21 11:57:34,828 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-21 11:57:34,869 ERROR [org.springframework.boot.SpringApplication] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ticketCache': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationClass': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kafka.bootstrap.servers' in value "${kafka.bootstrap.servers}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.Api.ticket.TicketApplication.main(TicketApplication.java:18)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationClass': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'kafka.bootstrap.servers' in value "${kafka.bootstrap.servers}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'kafka.bootstrap.servers' in value "${kafka.bootstrap.servers}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 40 common frames omitted
+2023-07-21 12:00:36,027 INFO [com.Api.ticket.TicketApplication] Starting TicketApplication using Java 20.0.1 on LAPTOP-LCH17QBJ with PID 29212 (C:\Users\Ansh Sharma\Desktop\ticket\target\classes started by Ansh Sharma in C:\Users\Ansh Sharma\Desktop\ticket)
+2023-07-21 12:00:36,029 INFO [com.Api.ticket.TicketApplication] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 12:00:36,960 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 12:00:36,961 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 12:00:36,986 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-07-21 12:00:37,013 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-21 12:00:37,015 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-21 12:00:37,024 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-07-21 12:00:37,945 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8083 (http)
+2023-07-21 12:00:37,951 INFO [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8083"]
+2023-07-21 12:00:37,953 INFO [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+2023-07-21 12:00:37,953 INFO [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-07-21 12:00:38,384 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+2023-07-21 12:00:38,385 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2291 ms
+2023-07-21 12:00:38,732 INFO [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 12:00:38,793 INFO [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-21 12:00:38,992 INFO [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 12:00:39,127 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2023-07-21 12:00:39,535 INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2023-07-21 12:00:39,549 INFO [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-21 12:00:40,456 INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 12:00:40,476 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 12:00:40,635 INFO [org.redisson.Version] Redisson 3.13.3
+2023-07-21 12:00:41,165 INFO [org.redisson.connection.pool.MasterPubSubConnectionPool] 1 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 12:00:41,175 INFO [org.redisson.connection.pool.MasterConnectionPool] 24 connections initialized for localhost/127.0.0.1:6379
+2023-07-21 12:00:41,342 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] Autowired annotation is not supported on static fields: public static final org.slf4j.Logger com.Api.ticket.listener.Consumer.logger
+2023-07-21 12:00:41,462 WARN [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 12:00:42,405 INFO [org.apache.kafka.clients.consumer.ConsumerConfig] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-groupId-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = groupId
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2023-07-21 12:00:42,631 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka version: 3.1.2
+2023-07-21 12:00:42,632 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka commitId: f8c67dc3ae0a3265
+2023-07-21 12:00:42,632 INFO [org.apache.kafka.common.utils.AppInfoParser] Kafka startTimeMs: 1689921042630
+2023-07-21 12:00:42,664 INFO [org.apache.kafka.clients.consumer.KafkaConsumer] [Consumer clientId=consumer-groupId-1, groupId=groupId] Subscribed to topic(s): TICKET_TOPIC
+2023-07-21 12:00:42,709 INFO [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8083"]
+2023-07-21 12:00:42,734 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8083 (http) with context path ''
+2023-07-21 12:00:42,745 INFO [com.Api.ticket.TicketApplication] Started TicketApplication in 7.452 seconds (JVM running for 8.47)
+2023-07-21 12:00:43,032 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Resetting the last seen epoch of partition TICKET_TOPIC-0 to 0 since the associated topicId changed from null to xQAYx2EETGaZf3z-B-IYqg
+2023-07-21 12:00:43,034 INFO [org.apache.kafka.clients.Metadata] [Consumer clientId=consumer-groupId-1, groupId=groupId] Cluster ID: ghGaNENzRc-pAOjADoO-pw
+2023-07-21 12:00:43,035 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Discovered group coordinator LAPTOP-LCH17QBJ:9092 (id: 2147483646 rack: null)
+2023-07-21 12:00:43,037 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 12:00:43,053 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Request joining group due to: need to re-join with the given member-id
+2023-07-21 12:00:43,054 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] (Re-)joining group
+2023-07-21 12:00:43,057 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully joined group with generation Generation{generationId=27, memberId='consumer-groupId-1-459bbf61-1595-42f5-b7db-6caa8a0aa53a', protocol='range'}
+2023-07-21 12:00:43,058 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Finished assignment for group at generation 27: {consumer-groupId-1-459bbf61-1595-42f5-b7db-6caa8a0aa53a=Assignment(partitions=[TICKET_TOPIC-0])}
+2023-07-21 12:00:43,064 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Successfully synced group in generation Generation{generationId=27, memberId='consumer-groupId-1-459bbf61-1595-42f5-b7db-6caa8a0aa53a', protocol='range'}
+2023-07-21 12:00:43,064 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Notifying assignor about the new Assignment(partitions=[TICKET_TOPIC-0])
+2023-07-21 12:00:43,067 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Adding newly assigned partitions: TICKET_TOPIC-0
+2023-07-21 12:00:43,074 INFO [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [Consumer clientId=consumer-groupId-1, groupId=groupId] Setting offset for partition TICKET_TOPIC-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[LAPTOP-LCH17QBJ:9092 (id: 1 rack: null)], epoch=0}}
+2023-07-21 12:00:43,075 INFO [org.springframework.kafka.listener.KafkaMessageListenerContainer] groupId: partitions assigned: [TICKET_TOPIC-0]
+2023-07-21 12:00:55,336 INFO [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21 12:00:55,336 INFO [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2023-07-21 12:00:55,338 INFO [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms
+2023-07-21 12:09:43,429 INFO [org.apache.kafka.clients.NetworkClient] [Consumer clientId=consumer-groupId-1, groupId=groupId] Node -1 disconnected.

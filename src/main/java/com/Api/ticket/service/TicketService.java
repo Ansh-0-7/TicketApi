@@ -10,14 +10,13 @@ import com.Api.ticket.utility.Validator;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.transaction.Transactional;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -36,6 +35,8 @@ public class TicketService {
     private KafkaTemplate<String,TicketEntity> kafkaTemplate;
 
     public ResponseEntity<UniformResponse> getAllTickets(AddRequestDto dto) {
+        List<TicketEntity> ticketData=new ArrayList<>();
+
         UniformResponse responseListDto = new UniformResponse();
         try {
 
@@ -44,12 +45,21 @@ public class TicketService {
                 responseListDto.setData(null);
                 responseListDto.setMessage("Failed");
                 return new ResponseEntity<>(responseListDto, HttpStatus.CONFLICT);
-            } else {
+            }
+            ticketData=ticketCache.getAllTickets(dto.getPageNo());
+            if(ticketData.size()!=0){
+                responseListDto.setStatus(true);
+                responseListDto.setMessage("Fetched from Cache");
+                responseListDto.setData(ticketData);
+                return new ResponseEntity<>(responseListDto,HttpStatus.ACCEPTED);
+            }
+            else {
                 List<TicketEntity> values = ticketDaoImplementation.getAllTickets(dto.getPageNo(), dto.getPageSize());
                 if (values != null && values.size() > 0) {
-                    responseListDto.setMessage("Found all the tickets");
+                    responseListDto.setMessage("Found all the tickets by database");
                     responseListDto.setStatus(true);
                     responseListDto.setData(values);
+                    ticketCache.ticketListToCache(dto.getPageNo(), values);
                     return new ResponseEntity<>(responseListDto, HttpStatus.ACCEPTED);
                 } else {
                     responseListDto.setMessage("Empty Record");
@@ -75,20 +85,20 @@ public class TicketService {
         if(ticketEntity!=null){
             uniformResponse.setData(ticketEntity);
             uniformResponse.setStatus(true);
-            uniformResponse.setMessage("Success" +" from cache");
+            uniformResponse.setMessage("Fetched by cache");
         }
         else{
             ticketEntity= ticketDaoImplementation.getTicketById(id);
             if(ticketEntity==null){
-                uniformResponse.setMessage("No such id exists");
+                uniformResponse.setMessage("Invalid id");
                 uniformResponse.setStatus(false);
                 uniformResponse.setData(null);
-                logger.error("No such Id exists");
+                logger.error("Invalid id");
                 return new ResponseEntity<>(uniformResponse,HttpStatus.CONFLICT);
             }
            uniformResponse.setData(ticketEntity);
             uniformResponse.setStatus(true);
-            uniformResponse.setMessage("Success"+" from database");
+            uniformResponse.setMessage("Fetched from database");
             ticketCache.putTicketToTicketIdTicketMap(ticketEntity);
         }
         return new ResponseEntity<>(uniformResponse,HttpStatus.ACCEPTED);
