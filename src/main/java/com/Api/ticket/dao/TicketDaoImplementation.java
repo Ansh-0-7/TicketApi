@@ -61,7 +61,6 @@ public class TicketDaoImplementation {
         }
     }
 
-
     public TicketEntity addTicket(TicketEntity ticketEntity) {
         Session session = null;
         Transaction txn = null;

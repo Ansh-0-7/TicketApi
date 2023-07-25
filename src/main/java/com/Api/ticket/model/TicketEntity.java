@@ -11,7 +11,7 @@ import java.sql.Timestamp;
 @Entity
 @Table(name = "ticket")
 
-public class TicketEntity implements Serializable {
+public class TicketEntity implements  Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

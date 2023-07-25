@@ -22,4 +22,6 @@ public class AddRequestDto {
     private int pageNo;
 
     private int pageSize;
+
+    private int id;
 }

@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.jdbc.datasource.init.DataSourceInitializer;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
+import org.springframework.web.client.RestTemplate;
 
 import javax.sql.DataSource;
 
@@ -64,5 +65,4 @@ public class HibernateConfiguration {
         initializer.setDataSource(dataSource);
         return initializer;
     }
-
 }
