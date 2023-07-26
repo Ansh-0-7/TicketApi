@@ -1,7 +1,6 @@
 package com.Api.ticket.listener;
 
-import ch.qos.logback.core.net.SyslogOutputStream;
-import com.Api.ticket.dao.TicketDaoImplementation;
+
 import com.Api.ticket.model.TicketEntity;
 import com.Api.ticket.service.TicketService;
 import org.slf4j.Logger;

@@ -16,7 +16,6 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -32,7 +31,7 @@ public class TicketService {
     String topicName;
 
     @Autowired
-    private KafkaTemplate<String,TicketEntity> kafkaTemplate;
+    private KafkaTemplate<String, TicketEntity> kafkaTemplate;
 
     public ResponseEntity<UniformResponse> getAllTickets(AddRequestDto dto) {
         UniformResponse responseListDto = new UniformResponse();
@@ -68,28 +67,27 @@ public class TicketService {
 
     public ResponseEntity<UniformResponse> getTicketById(AddRequestDto dto) {
 
-        UniformResponse uniformResponse= new UniformResponse();
-       TicketEntity ticketEntity=ticketCache.getTicketByTicketId(dto.getId());
-        if(ticketEntity!=null){
+        UniformResponse uniformResponse = new UniformResponse();
+        TicketEntity ticketEntity = ticketCache.getTicketByTicketId(dto.getId());
+        if (ticketEntity != null) {
             uniformResponse.setData(ticketEntity);
             uniformResponse.setStatus(true);
             uniformResponse.setMessage("Fetched by cache");
-        }
-        else{
-            ticketEntity= ticketDaoImplementation.getTicketById(dto.getId());
-            if(ticketEntity==null){
+        } else {
+            ticketEntity = ticketDaoImplementation.getTicketById(dto.getId());
+            if (ticketEntity == null) {
                 uniformResponse.setMessage("Invalid id");
                 uniformResponse.setStatus(false);
                 uniformResponse.setData(null);
                 logger.error("Invalid id");
-                return new ResponseEntity<>(uniformResponse,HttpStatus.CONFLICT);
+                return new ResponseEntity<>(uniformResponse, HttpStatus.CONFLICT);
             }
-           uniformResponse.setData(ticketEntity);
+            uniformResponse.setData(ticketEntity);
             uniformResponse.setStatus(true);
             uniformResponse.setMessage("Fetched from database");
             ticketCache.putTicketToTicketIdTicketMap(ticketEntity);
         }
-        return new ResponseEntity<>(uniformResponse,HttpStatus.ACCEPTED);
+        return new ResponseEntity<>(uniformResponse, HttpStatus.ACCEPTED);
     }
 
     @Transactional
@@ -180,7 +178,7 @@ public class TicketService {
                     ticket.setStatus(addRequestDto.getStatus());
                     ticket.setTitle(addRequestDto.getTitle());
                     ticket.setLastModifiedDate(Validator.getDate());
-                    kafkaTemplate.send("TICKET_TOPIC",ticket);
+                    kafkaTemplate.send("TICKET_TOPIC", ticket);
                     uniformResponse.setMessage("Updated Successfully");
                     uniformResponse.setData(ticket);
                     uniformResponse.setStatus(true);
@@ -200,7 +198,7 @@ public class TicketService {
                     ticket.setTitle(addRequestDto.getTitle());
                     ticket.setStatus(addRequestDto.getStatus());
                     ticket.setLastModifiedDate(Validator.getDate());
-                    kafkaTemplate.send(topicName,ticket);
+                    kafkaTemplate.send(topicName, ticket);
                 } else {
                     uniformResponse.setMessage(validateResponse.getMessage());
                     uniformResponse.setData(null);
@@ -222,8 +220,7 @@ public class TicketService {
         try {
             ticketDaoImplementation.addTicket(ticketEntity);
             ticketCache.putTicketToTicketIdTicketMap(ticketEntity);
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             logger.error(e.getMessage());
             return;
         }

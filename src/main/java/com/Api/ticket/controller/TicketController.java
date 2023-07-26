@@ -8,8 +8,6 @@ import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-import javax.servlet.http.HttpServletRequest;
-import java.util.Arrays;
 
 @RestController
 @RequestMapping("/tickets/v1")
@@ -24,13 +22,13 @@ public class TicketController {
         return ticketService.getAllTickets(addRequestDto);
     }
 
-    @GetMapping("/ticket-by-id")
+    @PostMapping("/ticket-by-id")
     public ResponseEntity<UniformResponse> getTicketById(@RequestBody AddRequestDto addRequestDto) {
         return ticketService.getTicketById(addRequestDto);
 
     }
 
-    @GetMapping("/get-ticket-by-status")
+    @PostMapping("/get-ticket-by-status")
     public ResponseEntity<UniformResponse> getTicketByStatus(@RequestBody AddRequestDto addRequestDto) {
         return ticketService.getTicketByStatus(addRequestDto);
     }
@@ -46,7 +44,7 @@ public class TicketController {
         return ticketService.addOrUpdateTicketByKafka(addRequestDto);
     }
 
-    @GetMapping("get-all-tickets-by-rest-template")
+    @PostMapping("get-all-tickets-by-rest-template")
     public ResponseEntity<UniformResponse> getAllTicketsByRestTemplate(@RequestBody AddRequestDto addRequestDto) {
         RestTemplate restTemplate = new RestTemplate();
         String url = "http://localhost:8083/tickets/v1/get-all-tickets";
@@ -57,7 +55,7 @@ public class TicketController {
         return userResponseDto;
     }
 
-    @GetMapping("add-or-update-tickets-by-rest")
+    @PostMapping("add-or-update-tickets-by-rest")
     public ResponseEntity<UniformResponse> addOrUpdateTicketsByRest(@RequestBody AddRequestDto addRequestDto) {
         RestTemplate restTemplate=new RestTemplate();
         String url="http://localhost:8083/tickets/v1/add-or-update-tickets-by-kafka";

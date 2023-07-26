@@ -1,6 +1,6 @@
 package com.Api.ticket.dao;
 
-import com.Api.ticket.config.HibernateConfiguration;
+import com.Api.ticket.config.SpringBootConfig;
 import com.Api.ticket.model.TicketEntity;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -17,7 +17,7 @@ import java.util.Optional;
 
 @Repository
 public class TicketDaoImplementation {
-    HibernateConfiguration hibernateConfiguration;
+
     @Autowired
     SessionFactory sessionFactory;
     public final static org.slf4j.Logger logger= LoggerFactory.getLogger(TicketDaoImplementation.class);
@@ -117,5 +117,4 @@ public class TicketDaoImplementation {
             session.close();
         }
     }
-
 }
